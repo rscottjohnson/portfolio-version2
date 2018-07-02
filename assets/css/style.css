@@ -29,16 +29,37 @@ h3 {
   font-weight: bold;
 }
 
-.nav>li>a {
-  color: #1c2833;
-  border: 1px solid #1C2833;
-  /* margin: 0px 10px 0px 10px; */
+.nav-link {
+  margin: 10px 10px 10px 10px;
 }
-.nav>li>a:hover,
-.nav>li>a:focus {
-    text-decoration: none;
-    color: #FBFBFB;
-    background-color: #1c2833;
+
+nav>a {
+  color: #fbfbfb;
+  background-color: #85929E;
+  /* border: 1px solid #1C2833; */
+  margin: 0px 20px 0px 20px;
+}
+
+nav>a:active {
+  color: #fbfbfb;
+  background-color: #1C2833;
+}
+
+nav>a:hover,
+nav>a:focus {
+  text-decoration: none;
+  color: #FBFBFB;
+  background-color: #1C2833;
+}
+
+hr { 
+  display: block;
+  /* margin-top: 0.5em;
+  margin-bottom: 0.5em; */
+  margin-left: auto;
+  margin-right: auto;
+  border-width: 4px;
+  color: #1C2833;
 }
 
 .bio-pic {
