@@ -1,4 +1,4 @@
-    <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en-us">
 
 <head>
@@ -9,88 +9,116 @@
 
     <!-- Bring in our bootstrap stylesheet -->
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
+        crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
-    <div class="wrapper">
-        <div class="top">
-            <div class="row">
-                <div class="col-md-6 col-sm-6">
-                    <h1>Scott Johnson</h1>
-                </div>
-                <div class="col-md-6 col-sm-6">
-                    <nav>
-                        <ul>
-                            <li>
-                                <a href="index.html">About</a>
-                            </li>
-                            <li id="li-port">
-                                <a href="portfolio.html">Portfolio</a>
-                            </li>
-                            <li>
-                                <a href="contact.html">Contact</a>
-                            </li>
-                        </ul>
-                    </nav>
-                </div>
+    <!-- Grid container -->
+    <div class="container">
+
+        <!-- Header -->
+        <div class="jumbotron jumbotron-fluid jumbotron-custom">
+            <div class="container">
+                <h1 class="display-4">Scott Johnson</h1>
+                <h2 class="lead">Web Development | Process Improvement | MBA</h2>
             </div>
         </div>
 
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 col-sm-12">
-                    <h2>Profile</h2>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-4 col-sm-6">
-                    <img src="assets/images/harryPotter.jpeg" alt="Hangmman" class="img-thumbnail img-responsive text-center ">
-                    <div class="captionNew">
-                        <a href="https://rscottjohnson.github.io/Word-Guess-Game/">Hangman</a>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6">
-                    <img src="assets/images/crystal4.jpg" alt="RPG Game" class="img-thumbnail img-responsive text-center">
-                    <div class="captionNew">
-                        <a href="https://rscottjohnson.github.io/unit-4-game/">Crystals Collector!</a>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-4 col-sm-6">
-                    <img src="assets/images/RickeyHenderson.jpg" alt="Trivia" class="img-thumbnail img-responsive text-center">
-                    <div class="captionNew">
-                        <a href="https://rscottjohnson.github.io/TriviaGame/">Trivia Game</a>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6">
-                    <img src="assets/images/joshua-coleman-671580-unsplash.jpg" alt="GifTastic" class="img-thumbnail img-responsive text-center">
-                    <div class="captionNew">
-                        <a href="https://rscottjohnson.github.io/GifTastic/">GifTastic</a>
+        <!-- Links -->
+        <ul class="nav nav-pills nav-justified">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html#">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+        </ul>
+
+        <br>
+        <div class="row">
+            <div class="col-sm">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="assets/images/harryPotter.jpeg" alt="Hangmman">
+                    <div class="card-body">
+                        <h5 class="card-title">Harry Potter Hangman</h5>
+                        <p class="card-text">A hangman style word guessing game themed after the Harry Potter book / movie series.</p>
+                        <a href="https://rscottjohnson.github.io/Word-Guess-Game/" class="btn btn-dark">View</a>
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-md-4 col-sm-6">
-                    <img src="assets/images/simon-launay-409361-unsplash.jpg" alt="TrainScheduler" class="img-thumbnail img-responsive text-center">
-                    <div class="captionNew">
-                        <a href="https://rscottjohnson.github.io/TrainScheduler/">TrainScheduler</a>
+            <div class="col-sm">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="assets/images/crystal4 copy.jpg" alt="Crystals Collector">
+                    <div class="card-body">
+                        <h5 class="card-title">Crystals Collector!</h5>
+                        <p class="card-text">A selection game that dynamically updates HTML pages with the jQuery library.</p>
+                        <a href="https://rscottjohnson.github.io/unit-4-game/" class="btn btn-dark">View</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="assets/images/RickeyHenderson copy.jpg" alt="Trivia">
+                    <div class="card-body">
+                        <h5 class="card-title">1980's Baseball Trivia</h5>
+                        <p class="card-text">A trivia quiz game that utilizes JavaScript logic and jQuery HTML manipulation.</p>
+                        <a href="https://rscottjohnson.github.io/TriviaGame/" class="btn btn-dark">View</a>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="push">
+        <div class="row">
+            <div class="col-sm">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="assets/images/joshua-coleman-671580-unsplash 2.jpg" alt="GifTastic">
+                    <div class="card-body">
+                        <h5 class="card-title">GifTastic</h5>
+                        <p class="card-text">A dynamic web page that populates with gifs of your choice.</p>
+                        <a href="https://rscottjohnson.github.io/GifTastic/" class="btn btn-dark">View</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="assets/images/simon-launay-409361-unsplash 2.jpg" alt="Train Scheduler">
+                    <div class="card-body">
+                        <h5 class="card-title">Train Scheduler</h5>
+                        <p class="card-text">A train schedule application that incorporates Firebase to host data.</p>
+                        <a href="https://rscottjohnson.github.io/TrainScheduler/" class="btn btn-dark">View</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="assets/images/liri.png" alt="LIRI">
+                    <div class="card-body">
+                        <h5 class="card-title">LIRI</h5>
+                        <p class="card-text">LIRI is like iPhone's SIRI. However, it's a Language Interpretation and Recognition Interface.</p>
+                        <a href="hhttps://rscottjohnson.github.io/liri-node-app/" class="btn btn-dark">View</a>
+                    </div>
+                </div>
+            </div>
         </div>
+        <br>
     </div>
 
-
+    <!-- Sticky footer -->
     <footer class="footer">
-        <div class="footer-container">
-            <span class="text-muted" id="p-footer">Copyright &copy;</span>
+        <div class="container">
+            Copyright &copy; Scott Johnson
         </div>
     </footer>
+
+    <!-- Link to JavaScript files -->
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
+
 </body>
 
 </html>
