@@ -1,4 +1,5 @@
 /* Reference info */
+
 /* font-family: 'Quicksand', sans-serif; */
 
 html {
@@ -9,7 +10,43 @@ html {
 body {
   margin-bottom: 65px;
   font-family: 'Quicksand', sans-serif;
+  background-color: #0C1C2C;
+  /* for version three */
+}
 
+/* for version three */
+
+.intro {
+  font-family: Helvetica, sans-serif;
+  font-size: 200px;
+  font-weight: bold;
+  color: #FBFBFB;
+}
+
+.header-port {
+  margin: 40px 0px 0px 0px;
+}
+
+.intro-port {
+  font-family: Helvetica, sans-serif;
+  font-size: 100px;
+  font-weight: bold;
+  color: #FBFBFB;
+  padding: 20px 0px 0px 0px;
+  margin: auto auto auto auto;
+}
+
+.header-contact {
+  margin: 40px 0px 0px 0px;
+}
+
+.intro-contact {
+  font-family: Helvetica, sans-serif;
+  font-size: 75px;
+  font-weight: bold;
+  color: #FBFBFB;
+  padding: 20px 0px 0px 0px;
+  margin: auto auto auto auto;
 }
 
 .jumbotron-custom {
@@ -24,9 +61,55 @@ h1 {
   color: #1C2833;
 }
 
-h3 {
+/* version two */
+
+/* h3 {
   font-size: 40px;
   font-weight: bold;
+} */
+
+/* version three */
+
+h3 {
+  font-family: Helvetica, sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  color: #FBFBFB;
+}
+
+/* version three */
+
+h5 {
+  font-family: Helvetica, sans-serif;
+  font-size: 20px;
+  /* font-weight: bold; */
+  color: #FBFBFB;
+}
+
+/* for version three */
+
+.nav-custom {
+  margin: auto auto auto auto;
+}
+
+/* for version three */
+
+.name {
+  font-family: Helvetica, sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  color: #FBFBFB;
+  margin-left: 15px;
+}
+
+/* for version three */
+
+.byline {
+  font-family: Helvetica, sans-serif;
+  font-size: 25px;
+  /* font-weight: bold; */
+  color: #FBFBFB;
+  margin-left: 15px;
 }
 
 .nav-link {
@@ -52,7 +135,7 @@ nav>a:focus {
   background-color: #1C2833;
 }
 
-hr { 
+hr {
   display: block;
   /* margin-top: 0.5em;
   margin-bottom: 0.5em; */
@@ -63,14 +146,26 @@ hr {
 }
 
 .bio-pic {
-  margin-top: auto;
-  margin-right: auto;
-  margin-bottom: auto;
+  display: block;
   margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 .card {
   margin: 10px 0px 10px 0px;
+}
+
+/* version three */
+
+.card-row {
+  margin: 60px 0px 60px 0px;
+}
+
+/* version three */
+
+.card-custom {
+  background-color: #85929E;
 }
 
 .footer {
@@ -83,12 +178,12 @@ hr {
   color: #FBFBFB;
   text-align: center;
   font-size: 12px;
-  border-top: 5px solid #5D6D7E;
+  border-top: 5px solid #85929B;
   font-family: 'Quicksand', sans-serif;
 }
 
 .form-control {
-  /* font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; */
+  font-family: Helvetica, sans-serif;
   color: #1C2833;
   margin: 5px 30px 0px 10px;
   clear: right;
@@ -99,7 +194,7 @@ hr {
 }
 
 .label {
-  /* font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; */
+  font-family: Helvetica, sans-serif;
   color: #1C2833;
   margin: 10px 0px 0px 20px;
   clear: right;
@@ -107,17 +202,57 @@ hr {
 
 button[type="submit"] {
   width: 100px;
-  background-color: #1C2833;
+  background-color: #85929B;
   color: white;
   padding: 10px 20px 10px 20px;
   margin: 0px 20px 20px 10px;
   border: none;
   cursor: pointer;
-  /* font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; */
+  font-family: Helvetica, sans-serif;
   font-size: 1.000em;
   /* changed from 16px */
 }
 
 button[type="submit"]:hover {
   background-color: #58D68D;
+}
+
+/* media query breakpoints */
+@media only screen and (max-width: 375px) {
+  .intro-contact {
+    font-size: 50px;
+    padding-left: 10px;
+  }
+  
+  .intro-port {
+    font-size: 50px;
+    padding-left: 10px;
+  }
+} 
+
+@media only screen and (min-width: 425px) {
+  .intro-port {
+    font-size: 70px;
+    padding-left: 10px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .intro-contact {
+    font-size: 60px;
+  }
+
+  .intro-port {
+    font-size: 70px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .intro-contact {
+    font-size: 80px;
+  }
+
+  .intro-port {
+    font-size: 90px;
+  }
 }
