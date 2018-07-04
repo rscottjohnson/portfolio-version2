@@ -7,12 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <!-- Bring in our bootstrap stylesheet -->
+    <!-- Bootstrap and stylesheets -->
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
         crossorigin="anonymous">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
@@ -20,16 +18,16 @@
     <!-- Grid container -->
     <div class="container">
 
-        <!-- Header version 3-->
+        <!-- Header -->
         <div class="row">
             <div class="col-sm-12 col-md-6">
                 <span class="intro">
                     Hi.
                 </span>
             </div>
-            <!-- Links version three -->
+
+            <!-- Links -->
             <div class="col-sm-12 col-md-6 nav-custom">
-                <!-- nav-custom for version three -->
                 <nav class="nav nav-pills flex-column flex-sm-row">
                     <a class="flex-sm-fill text-sm-center nav-link" href="index.html">About</a>
                     <a class="flex-sm-fill text-sm-center nav-link" href="portfolio.html">Portfolio</a>
@@ -38,8 +36,8 @@
             </div>
         </div>
 
-        <!-- Name section - version 3-->
-        <div class="row">
+        <!-- Name section -->
+        <div class="row name-row">
             <div class="col-sm-12 col-md-12">
                 <span class="name">
                     Scott Johnson
@@ -50,87 +48,69 @@
                     Web Development | Process Improvement | MBA
                 </span>
             </div>
-            <br>
-            <br>
-            <br>
-            
-            <!-- Header version two -->
-            <!-- <div class="jumbotron jumbotron-fluid jumbotron-custom">
-            <div class="container">
-                <h1 class="display-4">Scott Johnson</h1>
-                <h2 class="lead">Web Development | Process Improvement | MBA</h2>
-            </div> -->
-        </div> 
-
-            <!-- Links version two -->
-            <!-- <hr>
-        <nav class="nav nav-pills flex-column flex-sm-row">
-            <a class="flex-sm-fill text-sm-center nav-link" href="index.html">About</a>
-            <a class="flex-sm-fill text-sm-center nav-link" href="portfolio.html">Portfolio</a>
-            <a class="flex-sm-fill text-sm-center nav-link" href="contact.html">Contact</a>
-        </nav>
-        <hr> -->
-
-            <!-- Bio version two -->
-            <br>
-            <br>
-            <div class="row">
-                <div class="col-md-4 col-sm-12 bio-pic">
-                    <img src="assets/images/Lr-20170126-bw.jpg" alt="Scott Johnson" height="200" width="200" class="img-thumbnail rounded mx-auto d-block">
-                </div>
-                <div class="col-md-8 col-sm-12">
-                    <!-- <h3>hello</h3> -->
-                    <br>
-                    <h5>I have a passion for working with data, and that includes building and improving upon solutions that
-                        help people get things done.</h5>
-                    <br>
-                    <h5>I put that passion to work in my projects.</h5>
-                    <br>
-                    <h5>My background includes work in Finance and Operations in the pharmaceutical, high performance material,
-                        and textile industries.</h5>
-                </div>
-            </div>
-            <br>
-            <br>
-
-            <div class="row card-row">
-                <div class="col-sm">
-                    <div class="card card-custom">
-                        <div class="card-body">
-                            <h5 class="card-title">BS Industrial Engineering</h5>
-                            <a href="https://www.wvu.edu/" target="_blank" class="btn btn-dark">West Virginia University</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm">
-                    <div class="card card-custom">
-                        <div class="card-body">
-                            <h5 class="card-title">MBA</h5>
-                            <a href="https://www.ecu.edu/" target="_blank" class="btn btn-dark">East Carolina University</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm">
-                    <div class="card card-custom">
-                        <div class="card-body">
-                            <h5 class="card-title">Coding Bootcamp</h5>
-                            <a href="https://www.unc.edu/" target="_blank" class="btn btn-dark">UNC - Chapel Hill</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <br>
         </div>
 
-        <!-- Sticky footer -->
-        <footer class="footer">
-            <div class="container">
-                Copyright &copy; Scott Johnson
+        <!-- Bio section -->
+        <div class="row bio-intro-row">
+            <div class="col-md-4 col-sm-12 bio-pic">
+                <img src="assets/images/Lr-20170126-bw.jpg" alt="Scott Johnson" height="200" width="200" class="img-thumbnail rounded mx-auto d-block">
             </div>
-        </footer>
+            <div class="col-md-8 col-sm-12">
+                <h4>I have a passion for working with data, and that includes building and improving upon solutions that help
+                    people get things done.</h4>
+                <h4>I put that passion to work in my projects.</h4>
+            </div>
+        </div>
 
-        <!-- Link to JavaScript files -->
-        <script type="text/javascript" src="assets/javascript/app.js"></script>
+        <div class="row bio-body-row">
+            <div class="col-sm-12">
+                <h5>Throughout my career working in Finance and Operations in the pharmaceutical, high performance material,
+                    and textile industries I've always worked with my teams to bring new solutions to our work. More often
+                    than not, that has meant leveraging the tools at our disposal, whether that be an office suite tool or an 
+                    ERP system component. Through the coding bootcamp at UNC-Chapel Hill, I'm adding exciting
+                    new development tools to my arsenal.</h5>
+                <h4>Let's build something.</h4>
+            </div>
+        </div>
+
+        <div class="row card-row">
+            <div class="col-sm">
+                <div class="card card-custom">
+                    <div class="card-body">
+                        <h5 class="card-title">BS Industrial Engineering</h5>
+                        <a href="https://www.wvu.edu/" target="_blank" class="btn btn-dark">West Virginia University</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="card card-custom">
+                    <div class="card-body">
+                        <h5 class="card-title">MBA</h5>
+                        <a href="https://www.ecu.edu/" target="_blank" class="btn btn-dark">East Carolina University</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="card card-custom">
+                    <div class="card-body">
+                        <h5 class="card-title">Coding Bootcamp</h5>
+                        <a href="https://www.unc.edu/" target="_blank" class="btn btn-dark">UNC - Chapel Hill</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+    </div>
+
+    <!-- Sticky footer -->
+    <footer class="footer">
+        <div class="container">
+            Copyright &copy; Scott Johnson
+        </div>
+    </footer>
+
+    <!-- Link to JavaScript files -->
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
 
 </body>
 
