@@ -56,8 +56,9 @@ h4 {
   font-family: Helvetica, sans-serif;
   font-size: 30px;
   color: #fbfbfb;
+  line-height: 1.4;
   margin-left: 15px;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
 }
 
 .bio-body-row {
@@ -68,6 +69,7 @@ h5 {
   font-family: Helvetica, sans-serif;
   font-size: 20px;
   color: #fbfbfb;
+  line-height: 1.6;
   margin-left: 15px;
   margin-bottom: 60px;
 }
@@ -178,6 +180,11 @@ nav > a:focus {
   color: #fbfbfb;
   background-color: #1c2833;
 }
+
+.social-buttons {
+  margin: 20px 0px 20px 10px;
+}
+
 
 /* ---- footer ---- */
 
